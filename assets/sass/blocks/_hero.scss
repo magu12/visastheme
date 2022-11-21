@@ -1,0 +1,30 @@
+.hero {
+    .wrap {
+        display: flex;
+    }
+
+    h1.title {
+        margin-bottom: 24px;
+    }
+
+    h3.title {
+        margin-bottom: 32px;
+    }
+
+    h4.text {
+        margin-bottom: 48px;
+    }
+
+    &__btns {
+        display: flex;
+
+        .btn {
+            margin-right: 24px;
+        }
+    }
+
+    &__left {
+        padding-top: 160px;
+        width: 637px;
+    }
+}
